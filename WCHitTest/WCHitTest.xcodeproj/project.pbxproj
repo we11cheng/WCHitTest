@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCD579F7200B101800BE9784 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD579F6200B101800BE9784 /* AppDelegate.m */; };
+		CCD579FA200B101800BE9784 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD579F9200B101800BE9784 /* ViewController.m */; };
+		CCD579FD200B101800BE9784 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD579FB200B101800BE9784 /* Main.storyboard */; };
+		CCD579FF200B101800BE9784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCD579FE200B101800BE9784 /* Assets.xcassets */; };
+		CCD57A02200B101800BE9784 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD57A00200B101800BE9784 /* LaunchScreen.storyboard */; };
+		CCD57A05200B101900BE9784 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD57A04200B101900BE9784 /* main.m */; };
+		CCD57A0F200B101900BE9784 /* WCHitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD57A0E200B101900BE9784 /* WCHitTestTests.m */; };
+		CCD57A1A200B101900BE9784 /* WCHitTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD57A19200B101900BE9784 /* WCHitTestUITests.m */; };
+		CCD57A29200B108200BE9784 /* WCFirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD57A28200B108200BE9784 /* WCFirstView.m */; };
+		CCD57A2C200B109900BE9784 /* WCSecView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD57A2B200B109900BE9784 /* WCSecView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCD57A0B200B101900BE9784 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD579EA200B101800BE9784 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCD579F1200B101800BE9784;
+			remoteInfo = WCHitTest;
+		};
+		CCD57A16200B101900BE9784 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD579EA200B101800BE9784 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCD579F1200B101800BE9784;
+			remoteInfo = WCHitTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCD579F2200B101800BE9784 /* WCHitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WCHitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD579F5200B101800BE9784 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCD579F6200B101800BE9784 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCD579F8200B101800BE9784 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCD579F9200B101800BE9784 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCD579FC200B101800BE9784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCD579FE200B101800BE9784 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCD57A01200B101800BE9784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCD57A03200B101900BE9784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD57A04200B101900BE9784 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCD57A0A200B101900BE9784 /* WCHitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WCHitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD57A0E200B101900BE9784 /* WCHitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCHitTestTests.m; sourceTree = "<group>"; };
+		CCD57A10200B101900BE9784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD57A15200B101900BE9784 /* WCHitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WCHitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD57A19200B101900BE9784 /* WCHitTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCHitTestUITests.m; sourceTree = "<group>"; };
+		CCD57A1B200B101900BE9784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD57A27200B108200BE9784 /* WCFirstView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCFirstView.h; sourceTree = "<group>"; };
+		CCD57A28200B108200BE9784 /* WCFirstView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCFirstView.m; sourceTree = "<group>"; };
+		CCD57A2A200B109900BE9784 /* WCSecView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCSecView.h; sourceTree = "<group>"; };
+		CCD57A2B200B109900BE9784 /* WCSecView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCSecView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCD579EF200B101800BE9784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD57A07200B101900BE9784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD57A12200B101900BE9784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCD579E9200B101800BE9784 = {
+			isa = PBXGroup;
+			children = (
+				CCD579F4200B101800BE9784 /* WCHitTest */,
+				CCD57A0D200B101900BE9784 /* WCHitTestTests */,
+				CCD57A18200B101900BE9784 /* WCHitTestUITests */,
+				CCD579F3200B101800BE9784 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCD579F3200B101800BE9784 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCD579F2200B101800BE9784 /* WCHitTest.app */,
+				CCD57A0A200B101900BE9784 /* WCHitTestTests.xctest */,
+				CCD57A15200B101900BE9784 /* WCHitTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCD579F4200B101800BE9784 /* WCHitTest */ = {
+			isa = PBXGroup;
+			children = (
+				CCD579F5200B101800BE9784 /* AppDelegate.h */,
+				CCD579F6200B101800BE9784 /* AppDelegate.m */,
+				CCD579F8200B101800BE9784 /* ViewController.h */,
+				CCD579F9200B101800BE9784 /* ViewController.m */,
+				CCD57A27200B108200BE9784 /* WCFirstView.h */,
+				CCD57A28200B108200BE9784 /* WCFirstView.m */,
+				CCD57A2A200B109900BE9784 /* WCSecView.h */,
+				CCD57A2B200B109900BE9784 /* WCSecView.m */,
+				CCD579FB200B101800BE9784 /* Main.storyboard */,
+				CCD579FE200B101800BE9784 /* Assets.xcassets */,
+				CCD57A00200B101800BE9784 /* LaunchScreen.storyboard */,
+				CCD57A03200B101900BE9784 /* Info.plist */,
+				CCD57A04200B101900BE9784 /* main.m */,
+			);
+			path = WCHitTest;
+			sourceTree = "<group>";
+		};
+		CCD57A0D200B101900BE9784 /* WCHitTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCD57A0E200B101900BE9784 /* WCHitTestTests.m */,
+				CCD57A10200B101900BE9784 /* Info.plist */,
+			);
+			path = WCHitTestTests;
+			sourceTree = "<group>";
+		};
+		CCD57A18200B101900BE9784 /* WCHitTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCD57A19200B101900BE9784 /* WCHitTestUITests.m */,
+				CCD57A1B200B101900BE9784 /* Info.plist */,
+			);
+			path = WCHitTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCD579F1200B101800BE9784 /* WCHitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD57A1E200B101900BE9784 /* Build configuration list for PBXNativeTarget "WCHitTest" */;
+			buildPhases = (
+				CCD579EE200B101800BE9784 /* Sources */,
+				CCD579EF200B101800BE9784 /* Frameworks */,
+				CCD579F0200B101800BE9784 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WCHitTest;
+			productName = WCHitTest;
+			productReference = CCD579F2200B101800BE9784 /* WCHitTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCD57A09200B101900BE9784 /* WCHitTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD57A21200B101900BE9784 /* Build configuration list for PBXNativeTarget "WCHitTestTests" */;
+			buildPhases = (
+				CCD57A06200B101900BE9784 /* Sources */,
+				CCD57A07200B101900BE9784 /* Frameworks */,
+				CCD57A08200B101900BE9784 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCD57A0C200B101900BE9784 /* PBXTargetDependency */,
+			);
+			name = WCHitTestTests;
+			productName = WCHitTestTests;
+			productReference = CCD57A0A200B101900BE9784 /* WCHitTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCD57A14200B101900BE9784 /* WCHitTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD57A24200B101900BE9784 /* Build configuration list for PBXNativeTarget "WCHitTestUITests" */;
+			buildPhases = (
+				CCD57A11200B101900BE9784 /* Sources */,
+				CCD57A12200B101900BE9784 /* Frameworks */,
+				CCD57A13200B101900BE9784 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCD57A17200B101900BE9784 /* PBXTargetDependency */,
+			);
+			name = WCHitTestUITests;
+			productName = WCHitTestUITests;
+			productReference = CCD57A15200B101900BE9784 /* WCHitTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCD579EA200B101800BE9784 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = gwc;
+				TargetAttributes = {
+					CCD579F1200B101800BE9784 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					CCD57A09200B101900BE9784 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CCD579F1200B101800BE9784;
+					};
+					CCD57A14200B101900BE9784 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CCD579F1200B101800BE9784;
+					};
+				};
+			};
+			buildConfigurationList = CCD579ED200B101800BE9784 /* Build configuration list for PBXProject "WCHitTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCD579E9200B101800BE9784;
+			productRefGroup = CCD579F3200B101800BE9784 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCD579F1200B101800BE9784 /* WCHitTest */,
+				CCD57A09200B101900BE9784 /* WCHitTestTests */,
+				CCD57A14200B101900BE9784 /* WCHitTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCD579F0200B101800BE9784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD57A02200B101800BE9784 /* LaunchScreen.storyboard in Resources */,
+				CCD579FF200B101800BE9784 /* Assets.xcassets in Resources */,
+				CCD579FD200B101800BE9784 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD57A08200B101900BE9784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD57A13200B101900BE9784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCD579EE200B101800BE9784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD579FA200B101800BE9784 /* ViewController.m in Sources */,
+				CCD57A29200B108200BE9784 /* WCFirstView.m in Sources */,
+				CCD57A2C200B109900BE9784 /* WCSecView.m in Sources */,
+				CCD57A05200B101900BE9784 /* main.m in Sources */,
+				CCD579F7200B101800BE9784 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD57A06200B101900BE9784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD57A0F200B101900BE9784 /* WCHitTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD57A11200B101900BE9784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD57A1A200B101900BE9784 /* WCHitTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCD57A0C200B101900BE9784 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCD579F1200B101800BE9784 /* WCHitTest */;
+			targetProxy = CCD57A0B200B101900BE9784 /* PBXContainerItemProxy */;
+		};
+		CCD57A17200B101900BE9784 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCD579F1200B101800BE9784 /* WCHitTest */;
+			targetProxy = CCD57A16200B101900BE9784 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCD579FB200B101800BE9784 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD579FC200B101800BE9784 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCD57A00200B101800BE9784 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD57A01200B101800BE9784 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCD57A1C200B101900BE9784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCD57A1D200B101900BE9784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCD57A1F200B101900BE9784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 296BA8G9JQ;
+				INFOPLIST_FILE = WCHitTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = we11cheng.WCHitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCD57A20200B101900BE9784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 296BA8G9JQ;
+				INFOPLIST_FILE = WCHitTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = we11cheng.WCHitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCD57A22200B101900BE9784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 296BA8G9JQ;
+				INFOPLIST_FILE = WCHitTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = we11cheng.WCHitTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WCHitTest.app/WCHitTest";
+			};
+			name = Debug;
+		};
+		CCD57A23200B101900BE9784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 296BA8G9JQ;
+				INFOPLIST_FILE = WCHitTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = we11cheng.WCHitTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WCHitTest.app/WCHitTest";
+			};
+			name = Release;
+		};
+		CCD57A25200B101900BE9784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 296BA8G9JQ;
+				INFOPLIST_FILE = WCHitTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = we11cheng.WCHitTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WCHitTest;
+			};
+			name = Debug;
+		};
+		CCD57A26200B101900BE9784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 296BA8G9JQ;
+				INFOPLIST_FILE = WCHitTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = we11cheng.WCHitTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WCHitTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCD579ED200B101800BE9784 /* Build configuration list for PBXProject "WCHitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD57A1C200B101900BE9784 /* Debug */,
+				CCD57A1D200B101900BE9784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD57A1E200B101900BE9784 /* Build configuration list for PBXNativeTarget "WCHitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD57A1F200B101900BE9784 /* Debug */,
+				CCD57A20200B101900BE9784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD57A21200B101900BE9784 /* Build configuration list for PBXNativeTarget "WCHitTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD57A22200B101900BE9784 /* Debug */,
+				CCD57A23200B101900BE9784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD57A24200B101900BE9784 /* Build configuration list for PBXNativeTarget "WCHitTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD57A25200B101900BE9784 /* Debug */,
+				CCD57A26200B101900BE9784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCD579EA200B101800BE9784 /* Project object */;
+}
