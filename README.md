@@ -17,3 +17,4 @@
 * 最终，这个触摸事件交给主窗口的hitTest:withEvent:方法返回的视图对象去处理。
 
 #### 详见demo中第二个自定义View注释。
+运行效果图![](http://p2bzzkn05.bkt.clouddn.com/18-1-14/13239576.jpg)
